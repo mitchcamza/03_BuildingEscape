@@ -7,4 +7,5 @@
 BuildingEscape/Content/StarterContent/
 
 # Visual Studio Generated Files
-*.db
+*VC.**
+BuildingEscape/.vs/BuildingEscape/v16/ipch/AutoPCH/f360edf85fc1b1fe/POSITIONREPORT.ipch
