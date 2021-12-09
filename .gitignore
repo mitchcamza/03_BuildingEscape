@@ -9,3 +9,4 @@ BuildingEscape/Content/StarterContent/
 # Visual Studio Generated Files
 *VC.**
 BuildingEscape/.vs/BuildingEscape/v16/ipch/AutoPCH/f360edf85fc1b1fe/POSITIONREPORT.ipch
+*.ipch
