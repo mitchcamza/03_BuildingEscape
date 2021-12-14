@@ -20,7 +20,6 @@ void UOpenDoor::BeginPlay()
 	Super::BeginPlay();
 
 	// Find the owning actor
-	//FString Owner = GetOwner()->GetName();
 	AActor* Owner = GetOwner();
 
 	// Create a rotator
