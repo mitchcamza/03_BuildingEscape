@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
+#include "GameFramework/Actor.h"
 #include "OpenDoor.generated.h"
 
 
@@ -16,6 +17,9 @@ class BUILDINGESCAPE_API UOpenDoor : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UOpenDoor();
+
+	// Returns the total mass in kilograms of actors on pressure plate
+	float GetTotalMassOfActorsOnPlate();
 
 protected:
 	// Called when the game starts
@@ -39,7 +43,5 @@ private:
 	float DoorCloseDelay = 1.0f;
 
 	float LastDoorOpenTime;
-	AActor* ActorThatOpens;	// Pawn inherits from Actor
-	AActor* Owner;			// The owning door
-		
+	AActor* Owner;			// The owning door	
 };
